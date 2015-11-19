@@ -1,25 +1,37 @@
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
-
 ul#flex-container {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
 ul li {
-	height:150px;
-	padding-top: 45px;
-	color: white;
-	font-weight: bold;
-	font-size: 2.2em;
-	text-align: center;
+  height: 150px;
+  padding-top: 45px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.2em;
+  text-align: center;
 }
-
-ul li:first-child { background: #c2d775; }
-ul li:nth-child(2) { background: #007279; }
-ul li:nth-child(3) { background: #c7b600; }
-ul li:nth-child(4) { background: #a90077; }
-ul li:nth-child(5) { background: #00a378; }
-ul li:last-child { background: #00ea72; }
+ul li:first-child {
+  background: #c2d775;
+}
+ul li:nth-child(2) {
+  background: #007279;
+}
+ul li:nth-child(3) {
+  background: #c7b600;
+}
+ul li:nth-child(4) {
+  background: #a90077;
+}
+ul li:nth-child(5) {
+  background: #00a378;
+}
+ul li:last-child {
+  background: #00ea72;
+}
+/*# sourceMappingURL=edu/CSS.01/SIMON.Gary.Video.2015.10.24.CSS Flexbox Fundamentals.(PluralSight)/work/css/custom.css.map */
+/*# sourceMappingURL=custom.css.map */
