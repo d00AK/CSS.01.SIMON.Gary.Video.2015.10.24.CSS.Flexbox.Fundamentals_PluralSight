@@ -2,28 +2,32 @@ html, body
 	height 100%
 
 ul#flex-container
-	list-style-type: none
-	margin: 0
-	padding: 0
+	list-style-type none
+	margin 0
+	padding 0
+	display flex
 
 ul li
-	height:150px
-	padding-top: 45px
-	color: white
-	font-weight: bold
-	font-size: 2.2em
-	text-align: center
+	flex-grow 1
+	height 150px
+	padding-top 45px
+	color white
+	font-weight bold
+	font-size 2.2em
+	text-align center
 
 
 ul li:first-child
-	background: #c2d775
+	background #c2d775
 ul li:nth-child(2)
-	background: #007279
+	background #007279
 ul li:nth-child(3)
-	background: #c7b600
+	background #c7b600
+	flex-grow 2
 ul li:nth-child(4)
-	background: #a90077
+	background #a90077
 ul li:nth-child(5)
-	background: #00a378
+	background #00a378
+	flex-grow 5
 ul li:last-child
-	background: #00ea72
+	background #00ea72
