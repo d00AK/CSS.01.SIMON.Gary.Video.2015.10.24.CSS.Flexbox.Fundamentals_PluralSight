@@ -6,9 +6,12 @@ ul#flex-container
 	margin 0
 	padding 0
 	display flex
+	flex-direction row
+	flex-wrap wrap
 
 ul li
 	flex-grow 1
+	width 100px // will affect flex-wrap
 	height 150px
 	padding-top 45px
 	color white
@@ -19,15 +22,16 @@ ul li
 
 ul li:first-child
 	background #c2d775
+	// order 2
 ul li:nth-child(2)
 	background #007279
 ul li:nth-child(3)
 	background #c7b600
-	flex-grow 2
+	// flex-grow 2
 ul li:nth-child(4)
 	background #a90077
 ul li:nth-child(5)
 	background #00a378
-	flex-grow 5
+	// flex-grow 5
 ul li:last-child
 	background #00ea72
