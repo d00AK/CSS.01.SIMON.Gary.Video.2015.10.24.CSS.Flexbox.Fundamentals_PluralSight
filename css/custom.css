@@ -18,14 +18,14 @@ ul#flex-container {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  height: 300px;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 ul li {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   width: 100px;
-  height: 150px;
   padding-top: 45px;
   color: #fff;
   font-weight: bold;
@@ -40,6 +40,9 @@ ul li:nth-child(2) {
 }
 ul li:nth-child(3) {
   background: #c7b600;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
 }
 ul li:nth-child(4) {
   background: #a90077;

@@ -8,11 +8,14 @@ ul#flex-container
 	display flex
 	flex-direction row
 	flex-wrap wrap
+	// justify-content center
+	height 300px
+	align-items stretch
 
 ul li
-	flex-grow 1
+	// flex-grow 1
 	width 100px // will affect flex-wrap
-	height 150px
+	// height 150px
 	padding-top 45px
 	color white
 	font-weight bold
@@ -28,6 +31,7 @@ ul li:nth-child(2)
 ul li:nth-child(3)
 	background #c7b600
 	// flex-grow 2
+	align-self flex-end
 ul li:nth-child(4)
 	background #a90077
 ul li:nth-child(5)
